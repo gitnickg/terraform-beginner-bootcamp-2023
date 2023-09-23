@@ -32,3 +32,9 @@ Unset: `unset HELLO`
 Printing: `echo $HELLO`
 
 Gitpod: `gp env HELLO='world'`
+
+### AWS CLI Installation
+
+.gitpod.yml calls bin/install_aws_cli to install AWS cli
+
+aws credentials check: `aws sts get-caller-identity`
