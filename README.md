@@ -19,3 +19,16 @@ Given a version number **MAJOR.MINOR.PATCH**, increment the:
 
 .gitpod.yml calls bin/install_terraform_cli to install Terraform CLI
 
+## Environment Variables
+
+List all: `env`
+
+Filter:  `env | grep AWS_`
+
+Set: `export HELLO='world'`
+
+Unset: `unset HELLO`
+
+Printing: `echo $HELLO`
+
+Gitpod: `gp env HELLO='world'`
