@@ -17,7 +17,7 @@ Given a version number **MAJOR.MINOR.PATCH**, increment the:
 
 ### Bash Script
 
-.gitpod.yml calls bin/install_terraform_cli to install Terraform CLI
+`.gitpod.yml` calls `bin/install_terraform_cli` to install Terraform CLI
 
 ## Environment Variables
 
@@ -33,8 +33,19 @@ Printing: `echo $HELLO`
 
 Gitpod: `gp env HELLO='world'`
 
-### AWS CLI Installation
+## AWS CLI Installation
 
-.gitpod.yml calls bin/install_aws_cli to install AWS cli
+`.gitpod.yml` calls `bin/install_aws_cli` to install AWS cli
 
 aws credentials check: `aws sts get-caller-identity`
+
+## Terraform
+
+[Terraform Providers](https://registry.terraform.io/)
+
+### terraform commands
+
+`terraform init`
+`terraform plan`
+`terraform apply`
+`terraform output`
