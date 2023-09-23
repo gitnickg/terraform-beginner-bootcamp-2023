@@ -49,3 +49,4 @@ aws credentials check: `aws sts get-caller-identity`
 `terraform plan`
 `terraform apply`
 `terraform output`
+`terraform destroy`
