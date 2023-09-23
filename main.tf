@@ -1,5 +1,12 @@
 # comment
 terraform {
+  cloud {
+    organization = "icns"
+
+    workspaces {
+      name = "terra-house"
+    }
+  }
   required_providers {
     aws = {
       source = "hashicorp/aws"
