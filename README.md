@@ -46,10 +46,15 @@ aws credentials check: `aws sts get-caller-identity`
 ### terraform commands
 
 Intiate: `terraform init`
+
 Plan: `terraform plan`
+
 Apply: `terraform apply`
+
 Output: `terraform output`
+
 Destroy: `terraform destroy`
+
 
 ### Terraform alias
 `.gitpod.yml` calls `bin/set_tf_alias` to set `terraform` to `tf`
