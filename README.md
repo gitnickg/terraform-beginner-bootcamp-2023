@@ -1,5 +1,8 @@
 # Terraform Beginner Bootcamp 2023
 
+# Resources
+- [Andrew Brown's repo](https://github.com/omenking/terraform-beginner-bootcamp-2023)
+
 ## Table of Contents
 - [Semantic Versioning](#semantic-versioning)
 - [Install Terraform CLI](#install-the-terraform-cli)
