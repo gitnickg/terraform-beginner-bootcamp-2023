@@ -1,6 +1,12 @@
 # Terraform Beginner Bootcamp 2023
 
-## Semantic Versioning :mage:
+## Table of Contents
+[Semantic Versioning](#semantic-versioning)
+[Install Terraform CLI](#install-the-terraform-cli)
+[Install AWS CLI](#aws-cli-installation)
+[Terraform](#terraform)
+
+## Semantic Versioning
 
 This project is going to use symantix versioning for its tagging.
 [semver.org](https://semver.org/)
@@ -15,7 +21,7 @@ Given a version number **MAJOR.MINOR.PATCH**, increment the:
 
 [Install Terraform CLI](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
-### Bash Script
+### Terraform CLI Bash Script
 
 `.gitpod.yml` calls `bin/install_terraform_cli` to install Terraform CLI
 
@@ -55,6 +61,8 @@ Output: `terraform output`
 
 Destroy: `terraform destroy`
 
+### Terraform Login Workaround in Gitpod
+`.gitpod.yml` calls `./bin/generate_tfrc_credentials` to create the terraform credentials file and $TERRAFORM_CLOUD_TOKEN env var
 
 ### Terraform alias
 `.gitpod.yml` calls `bin/set_tf_alias` to set `terraform` to `tf`
