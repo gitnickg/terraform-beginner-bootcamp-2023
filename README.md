@@ -1,6 +1,6 @@
 # Terraform Beginner Bootcamp 2023
 
-# Resources
+## Resources
 - [Andrew Brown's repo](https://github.com/omenking/terraform-beginner-bootcamp-2023)
 
 ## Table of Contents
