@@ -69,3 +69,15 @@ Destroy: `terraform destroy`
 
 ### Terraform alias
 `.gitpod.yml` calls `bin/set_tf_alias` to set `terraform` to `tf`
+
+### Root Module Structure
+
+- PROJECT_ROOT
+  - variables.tf - stores the structure of input variables
+  - main.tf - everything else
+  - providers.tf - defined required providers and their configuration
+  - outputs.tf - stores our outputs
+  - terraform.tfvars - the data of variables we want to load into our terraform project
+  - README.md - required for root modules
+
+[Standard Module Strucrture](https://developer.hashicorp.com/terraform/language/modules/develop/structure)
