@@ -81,3 +81,14 @@ Destroy: `terraform destroy`
   - README.md - required for root modules
 
 [Standard Module Strucrture](https://developer.hashicorp.com/terraform/language/modules/develop/structure)
+
+### Terraform Variables
+
+[Terraform Input Variables](https://developer.hashicorp.com/terraform/language/values/variables)
+
+Order of execution:
+- Environment variables - `env`
+- Terraform variables file - `terraform.tfvars` or `terraform.tfvars.json`
+- Terraform variables file - `.auto.tfvars` or `auto.tfvars.json`
+- Flags when using tf init/plan/apply - `-var` or `-var-file`
+- Variable defaults
