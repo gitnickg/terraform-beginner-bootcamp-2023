@@ -92,3 +92,9 @@ Order of execution:
 - Terraform variables file - `.auto.tfvars` or `auto.tfvars.json`
 - Flags when using tf init/plan/apply - `-var` or `-var-file`
 - Variable defaults
+
+### Terraform Modules
+
+Modules go in their own module directory
+
+[Modules Sources](https://developer.hashicorp.com/terraform/language/modules/sources)
