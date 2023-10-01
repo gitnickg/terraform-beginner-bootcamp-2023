@@ -98,3 +98,15 @@ Order of execution:
 Modules go in their own module directory
 
 [Modules Sources](https://developer.hashicorp.com/terraform/language/modules/sources)
+
+
+### Terraform - Working with Files
+
+https://developer.hashicorp.com/terraform/language/functions/fileexists
+
+https://developer.hashicorp.com/terraform/language/functions/filemd5
+
+### Path Variable
+
+[Special Path Variable](https://developer.hashicorp.com/terraform/language/expressions/references#filesystem-and-workspace-info)
+
