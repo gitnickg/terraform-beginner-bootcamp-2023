@@ -110,3 +110,34 @@ https://developer.hashicorp.com/terraform/language/functions/filemd5
 
 [Special Path Variable](https://developer.hashicorp.com/terraform/language/expressions/references#filesystem-and-workspace-info)
 
+### Terraform Locals
+
+[Local Values](https://developer.hashicorp.com/terraform/language/values/locals)
+
+### Terraform Data Sources
+
+[Data Sources](https://developer.hashicorp.com/terraform/language/data-sources)
+
+### Working with JSON
+
+[jsonencode](https://developer.hashicorp.com/terraform/language/functions/jsonencode)
+
+### Changing the Lifecycle of Resources
+
+[Meta Arguments Lifcycle](https://developer.hashicorp.com/terraform/language/meta-arguments/lifecycle)
+
+### Terraform Data
+
+[Terraform Data](https://developer.hashicorp.com/terraform/language/resources/terraform-data)
+
+### Provisioners
+
+[Provisioners](https://developer.hashicorp.com/terraform/language/resources/provisioners/syntax)
+
+### Local-exec
+
+[Local Exec](https://developer.hashicorp.com/terraform/language/resources/provisioners/local-exec)
+
+### Remote-exec
+
+[Remote Exec](https://developer.hashicorp.com/terraform/language/resources/provisioners/remote-exec)
