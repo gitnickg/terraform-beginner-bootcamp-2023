@@ -141,3 +141,7 @@ https://developer.hashicorp.com/terraform/language/functions/filemd5
 ### Remote-exec
 
 [Remote Exec](https://developer.hashicorp.com/terraform/language/resources/provisioners/remote-exec)
+
+### For Each
+
+[For Each Expressions](https://developer.hashicorp.com/terraform/language/expressions/for)
