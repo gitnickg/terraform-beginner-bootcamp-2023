@@ -145,3 +145,30 @@ https://developer.hashicorp.com/terraform/language/functions/filemd5
 ### For Each
 
 [For Each Expressions](https://developer.hashicorp.com/terraform/language/expressions/for)
+
+## Working with Ruby
+
+### Bundler
+bundler is a package manager for ruby. Used to install ruby packages, called gems.
+
+### Install Gems
+Create a gemfile that contains your gems.
+
+`bundle install`
+
+gemfile.lock maintains gem versions
+
+### Executing
+
+`bundle exec`
+
+### Sinatra
+
+micro web-framework to create a webserver.
+
+[Sinatra](https://sinatrarb.com)
+
+## Terrarowns mock server
+
+`bundle install`
+`bundle exec ruby server.rb`
