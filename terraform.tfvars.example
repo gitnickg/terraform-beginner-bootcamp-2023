@@ -1,4 +1,4 @@
-user_uuid="67b3ede4-4b0a-4c2e-a06f-51d6ff1dba14"
+terratowns_endpoint="https://terratowns.cloud/api"
 bucket_name="67b3ede4-4b0a-4c2e-a06f-51d6ff1dba14"
 index_html_filepath="/public/index.html"
 error_html_filepath="/public/error.html"
