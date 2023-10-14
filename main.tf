@@ -47,12 +47,12 @@ module "terrahouse_aws" {
 
 
 resource "terratowns_home" "home" {
-  name = "AI Generated Graffiti"
+  name = "Favorite Songs of 2023"
   description = <<DESCRIPTION
-Using various AI image generators, these were my favorite AI generated graffiti pictures!
+These are my favorite songs of 2023!
 DESCRIPTION
   domain_name = module.terrahouse_aws.cloudfront_url
   #domain_name = "3fdq3gz566.cloudfront.net"
-  town = "missingo"
+  town = "melomaniac-mansion"
   content_version = 1
 }
