@@ -1,4 +1,11 @@
 terraform {
+ required_providers {
+    terratowns = {
+      source = "local.providers/local/terratowns"
+      version = "1.0.0"
+    }
+  }
+
 cloud {
     organization = "icns"
 
@@ -14,18 +21,18 @@ cloud {
 #     }
 #  }
 
- required_providers {
-    terratowns = {
-      source = "local.providers/local/terratowns"
-      version = "1.0.0"
-    }
-  }
 }
 
-provider "aws" {
-  # Configuration options
-  region = "us-east-1"
+provider "terratowns" {
+  endpoint = "https://terratowns.cloud/api"
+  user_uuid = var.user_uuid 
+  token = var.terratowns_access_token
 }
+
+# provider "aws" {
+#   # Configuration options
+#   region = "us-east-1"
+# }
 
 module "terrahouse_aws" {
   source = "./modules/terrahouse_aws"
@@ -37,11 +44,7 @@ module "terrahouse_aws" {
   assets_path = var.assets_path
 }
 
-provider "terratowns" {
-  endpoint = "https://terratowns.cloud/api"
-  user_uuid = var.user_uuid 
-  token = var.terratowns_access_token
-}
+
 
 resource "terratowns_home" "home" {
   name = "AI Generated Graffiti"
